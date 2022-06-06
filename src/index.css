@@ -2,25 +2,28 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #46529d;
+  background-image: url('/src/imgs/thought-catalog-505eectW54k-unsplash.png');
+  background-size: 100%;
   color: #fff;
+  font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-.text-center{ 
+.text-center {
   text-align: center;
 }
 
-.container{
+.container {
   width: 60%;
   margin: 10% auto;
 }
-.ListItems{
+
+.ListItems {
   background: #fff;
-  color: #46529d;
+  color: #43c50e;
 }
 
 .ListItems p {
@@ -29,7 +32,7 @@ body{
   padding: 10px 0px;
 }
 
-.ListItems span{
+.ListItems span {
   display: inline-block;
   text-align: center;
   padding: 10px 0;
@@ -37,24 +40,27 @@ body{
   border: 0.3px solid #ccc;
 }
 
-.ListItems span.title{
-  background: #2ebaee;
+.ListItems span.title {
+  background: #3c3b3b;
   color: #fff;
 }
 
-.ListItems span.name ,
-form input[type=text]{
+.ListItems span.name,
+form input[type=text] {
   width: 60%;
 }
 
-.ListItems span.age ,form input[type=number]{
+.ListItems span.age,
+form input[type=number] {
   width: 30%;
 }
 
-.ListItems span.action ,form input[type=submit]{
+.ListItems span.action,
+form input[type=submit] {
   width: 10%;
 }
-.ListItems span.icon{
+
+.ListItems span.icon {
   color: #f00;
   cursor: pointer;
 }
@@ -62,13 +68,13 @@ form input[type=text]{
 form input {
   padding: 10px;
   background: #ebeeeb;
-  border:transparent;
-  border:0.3px solid #ccc
+  border: transparent;
+  border: 0.3px solid #ccc
 }
 
-form input[type=submit]{
-  background: #2ebaee;
-  border: 0.3px solid #2ebaee;
+form input[type=submit] {
+  background: #43c50e;
+  border: 0.3px solid #ccc;
   color: #fff;
   cursor: pointer;
 }
